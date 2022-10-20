@@ -5,8 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Default Starter</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body>
     <h1>Hello World</h1>
+    <h2>Hello World</h2>
+    <h3>Hello World</h3>
+    <h4>Hello World</h4>
+    <h5>Hello World</h5>
+    <h6>Hello World</h6>
+
+    <img src="/sky.jpg" alt="ciel" class="img" /><br />
+    <button type="button" class="btn">bouton normal</button>
+    <button type="button" class="btn btn-hipster">bouton hipster</button>
+    <br />
+    <br />
+    <div class="alert alert-danger">bonjour depuis danger</div>
+    <div class="alert alert-success">bonjour depuis succès</div>
+
+    <form class="form">
+      <h4>formulaire de contact</h4>
+      <div class="form-row">
+        <label for="name" class="form-label">prénom</label>
+        <input
+          type="text"
+          class="form-input"
+          name="name"
+          id="name"
+          placeholder="salut toi"
+        />
+      </div>
+      <div class="form-row">
+        <label for="number" class="form-label">nombre</label>
+        <input type="number" class="form-input" name="number" id="number" />
+      </div>
+      <div class="form-row">
+        <label for="email" class="form-label">email</label>
+        <input type="email" class="form-input" name="email" id="email" />
+        <small class="form-alert">entrer une valeur</small>
+      </div>
+      <div class="form-row">
+        <label for="textarea" class="form-label">textarea</label>
+        <textarea name="textarea" id="textarea" class="form-textarea">
+valeur par défaut</textarea
+        >
+      </div>
+      <button class="btn btn-block">soumettre</button>
+    </form>
+
+    <div class="loading"></div>
+    <br />
+    <br />
+
+    <div class="title">
+      <h2>titre de section</h2>
+      <div class="underline"></div>
+    </div>
   </body>
 </html>
